@@ -38,7 +38,7 @@ import java.awt.print.*;
 	    
      // Class Variables
      
-    // clsSettings settings = new clsSettings();
+    // clsConfiguracions settings = new clsConfiguracions();
      //clsConnection connect = new clsConnection();
      
      // Connection

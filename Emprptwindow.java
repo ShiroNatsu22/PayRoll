@@ -2,11 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.sql.*;
-import java.io.*;
-import java.util.*;
-import java.net.*;
 import java.lang.String;
-import java.awt.print.*;
 import java.text.DateFormat;
 import java.util.Date;
 
@@ -69,7 +65,7 @@ import java.util.Date;
     
      // Class Variables
      
-     clsSettings settings = new clsSettings();
+     clsConfiguracions settings = new clsConfiguracions();
      clsConnection connect = new clsConnection();
      
      // Connection

@@ -1,10 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
-import java.io.*;
 import java.sql.*;
 import javax.swing.*;
-import java.util.*;
-import java.net.*;
 
 public class Editwindow extends JInternalFrame implements ActionListener  {
 
@@ -24,7 +21,7 @@ public class Editwindow extends JInternalFrame implements ActionListener  {
     private JComboBox Emp_Type;
 	
 //Class Variables
-clsSettings settings 	= new clsSettings(); 
+clsConfiguracions settings 	= new clsConfiguracions();
 clsConnection connect = new clsConnection();
 Connection conn;
 

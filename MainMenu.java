@@ -1,13 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.awt.Toolkit;
 import java.io.*;
 import java.sql.*;
-import java.util.*;
 import java.text.DateFormat;
 import java.util.Date;
-import java.text.*;
 import java.lang.*;
 import java.beans.PropertyVetoException;
 
@@ -89,7 +86,7 @@ static Statement stmtLogin;
 
 
 //Class Variables
-clsSettings settings 	= new clsSettings();
+clsConfiguracions settings 	= new clsConfiguracions();
 
 //// User Details
 	static String sUser		= "";

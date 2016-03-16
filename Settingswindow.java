@@ -1,13 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import javax.swing.event.*;
 import java.sql.*;
-import java.io.*;
-import java.util.*;
-import java.net.*;
 
-  public class Settingswindow extends JInternalFrame implements ActionListener, ItemListener {
+public class Settingswindow extends JInternalFrame implements ActionListener, ItemListener {
 
 	JFrame JFParentFrame;
 	JDesktopPane desktop;
@@ -44,7 +40,7 @@ import java.net.*;
      
      // Class Variables
      
-     clsSettings settings = new clsSettings();
+     clsConfiguracions settings = new clsConfiguracions();
      clsConnection connect = new clsConnection();
      
      // Connection

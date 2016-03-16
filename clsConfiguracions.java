@@ -3,7 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.util.*;
 
-public class clsSettings
+public class clsConfiguracions
  { 	
  
 	public JLabel setJLabel(JLabel lbl, int sLeft, int sTop, int sWidth, int sHeight, boolean setBool)

@@ -1,10 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
-import java.io.*;
 import java.sql.*;
 import javax.swing.*;
-import java.util.*;
-import java.net.*;
 
 public class Deletewindow extends JInternalFrame implements ActionListener  {
 
@@ -23,7 +20,7 @@ public class Deletewindow extends JInternalFrame implements ActionListener  {
      int dialogtype = JOptionPane.PLAIN_MESSAGE;
     // Class Variables
     
-    clsSettings settings = new clsSettings(); 
+    clsConfiguracions settings = new clsConfiguracions();
 
 // Connection Class Variables
 clsConnection connect = new clsConnection();
